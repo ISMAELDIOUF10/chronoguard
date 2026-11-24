@@ -20,7 +20,7 @@
 #include <sched.h>
 
 #define TAILLE_KO       256    /* empreinte de la tache critique      */
-#define PERIODE_US     2000    /* 500 Hz                              */
+#define PERIODE_US    20000    /* 50 Hz au lieu de 500 Hz */
 #define ITERATIONS    10000    /* 20 s par campagne                   */
 #define COEUR_CRITIQUE    0
 #define BRUIT_THREADS     3    /* coeurs 1, 2, 3                      */
